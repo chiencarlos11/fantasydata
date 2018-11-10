@@ -37,5 +37,6 @@ for index, row in datas.iterrows():
 	new_list2.append(player2)
 
 for player in new_list:
+	#print
 	print "Name = " + player['name'] + " - " + "score = " + str(player['score'])
 
